@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Land Preparation  Summer Ploughing: Summer ploughing improves soil structure due to alternate drying and cooling. Soil permeability is increased by breaking the compacted layers. Tillage improves soil aeration which helps in multiplication of micro organisms. Organic matter decomposition is hastened resulting in higher nutrient availability. Increased aeration also helps in degradation of herbicide and pesticide residues and harmful allelopathic chemicals exuded by roots of previous crop or weed. It also helps in reducing the soil dwelling insect pests. In view of several benefits summer ploughing could be taken up at optimum moisture level. Frequent harrowing has to be avoided as it results in destruction of soil structure. Tillage at improper moisture level is to be discouraged as it also damages soil structure and leads to development of hard pans.  Shallow Ploughing: It is generally followed by the most of the farmers repeatedly at the same depth (12-15 Cm). As a result of this hard pans are created, which inhibits the penetration of roots in deep rooted crops. Eg: Cotton roots grow to a depth of 2 Mts. in deep alluvial soils without any pans, when hard pans are present they grow only upto hard pan (5 – 20 cm). But shallow ploughing is practiced to open the soil crust to increase the receptivity of rainfall." />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickCropInfo"
+        android:text="Click Here for More Info" />
+</LinearLayout>

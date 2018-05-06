@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Government of India is according high priority for welfare of the farmers and is implementing several farmers’ welfare schemes to revitalize agriculture sector and to improve their economic conditions. The Government has rolled out a number of new initiatives like Soil Health Card Scheme, Neem Coated Urea, Paramparagat Krishi Vikas Yojana (PKVY), Pradhan Mantri Krishi Sinchayee Yojana (PMKSY), National Agriculture Market (e-NAM), Pradhan Mantri Fasal Bima Yojana (PMFBY) and Interest Subvention Scheme.  These schemes are for the benefit of all farmers. The details of the schemes are as below:     (i)         Soil Health Card Scheme:     Launched in 2015, the scheme has been introduced to assist State Governments to issue Soil Health Cards to all farmers in the country.  The Soil Health Cards provide information to farmers on nutrient status of their soil alongwith recommendation on appropriate dosage of nutrients to be applied for improving soil health and its fertility.   " />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSchemeInfo"
+        android:text="Click Here for More Info" />
+</LinearLayout>
